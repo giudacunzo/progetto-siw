@@ -45,7 +45,7 @@ public class MostraParametri extends HttpServlet {
 		out.println("<ul>");
 		out.println("<li>Nome: <b>"+nome+"</b></li>");
 		out.println("<li>Cognome: <b>"+cognome+"</b></li>");
-		out.println("</ul>");
+		out.println("</	ul>");
 		out.println("<h2>Altri dati relativi alla richiesta</h2>");
 		out.println("<br />IP: <b>"+address+"</b>");
 		out.println("<br />Host: <b>"+host+"</b>");
